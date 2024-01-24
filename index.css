@@ -1,0 +1,35 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.wrapper {
+  margin: 0 auto;
+max-width: 500px;
+padding: 126px 0 582px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: center;
+}
+.btn {
+  width: 100%;
+ padding: 28px 0 28px 0;
+color: #FFF;
+border-radius: 20px;
+border: none;
+
+} 
+.btn-add {
+  background: #4191FF;
+}
+.btn-reset {
+  background: #D45366;
+}
+.btn-add:hover,
+.btn-reset:hover {
+  opacity: 0.7;
+}
