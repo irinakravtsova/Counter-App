@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Counter App</title>
+  <title>Счетчик</title>
+  <link rel="shortcut icon" href="free-icon-swimmer-94141 (1).png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap" rel="stylesheet">
@@ -12,11 +13,17 @@
 </head>
 <body>
 
-    <div class="wrapper">
-      <p class="counter">0</p>
-      <button class="btn btn-add">+1 Бассейн</button>
-      <button class="btn btn-reset">Сбросить</button>
+    <div class="counter">
+      <div data-find="counteValue" class="counter__value">0</div>
+      <button id="addOnePoolButton" data-pools="1" class="counter__addButton">+1 Бассейн</button>
+      <button id="addTwoPoolsButton" data-pools="2" class="counter__addButton">+2 Бассейн</button>
+      <button id="resetButton" class="counter__resetButton">Сбросить</button>
+      
     </div>
+  
+
+
+ 
 
 <script src="index.js"></script>
 </body>
