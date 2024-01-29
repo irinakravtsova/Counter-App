@@ -1,7 +1,7 @@
 // создаем переменную, куда будем записывать текущее значение счетчика
-let button = document.querySelector('.btn-add');
-let counterText = document.querySelector('.counter');
-let reset = document.querySelector('.btn-reset');
+const button = document.querySelector(".btn-add");
+const counterText = document.querySelector(".counter");
+const reset = document.querySelector(".btn-reset");
 // переменные вверху - это связь с элементами страницы
 // переменная внизу - данные про реальный счетчик, нажимая на кнопку мы меняем данные счетчика counter = counter + 1; - меняем значение переменной
 let counter = 0;
